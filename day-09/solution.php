@@ -92,8 +92,8 @@ assert(part_2("(25x3)(3x3)ABC(2x3)XY(5x2)PQRSTX(18x9)(3x2)TWO(5x7)SEVEN") === 44
 
 ###
 
-$file = fopen("day-9/input.txt", "r") or die("Could not open file.");
-$input = fread($file, filesize("day-9/input.txt"));
+$file = fopen("day-09/input.txt", "r") or die("Could not open file.");
+$input = fread($file, filesize("day-09/input.txt"));
 fclose($file);
 
 ###

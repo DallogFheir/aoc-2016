@@ -67,15 +67,15 @@ function part_2($input)
     }
 
     $screen_string = join("\n", array_map(fn ($row) => join("", $row), $screen));
-    $file = fopen("day-8/output.txt", "w") or die("Could not open file.");
+    $file = fopen("day-08/output.txt", "w") or die("Could not open file.");
     fwrite($file, $screen_string);
     fclose($file);
 }
 
 ###
 
-$file = fopen("day-8/input.txt", "r") or die("Could not open file.");
-$input = explode("\n", fread($file, filesize("day-8/input.txt")));
+$file = fopen("day-08/input.txt", "r") or die("Could not open file.");
+$input = explode("\n", fread($file, filesize("day-08/input.txt")));
 fclose($file);
 
 ###

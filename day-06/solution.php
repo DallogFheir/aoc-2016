@@ -79,8 +79,8 @@ assert(part_2($test_input) === "advent");
 
 ###
 
-$file = fopen("day-6/input.txt", "r") or die("Could not open file.");
-$input = explode("\n", fread($file, filesize("day-6/input.txt")));
+$file = fopen("day-06/input.txt", "r") or die("Could not open file.");
+$input = explode("\n", fread($file, filesize("day-06/input.txt")));
 fclose($file);
 
 ###

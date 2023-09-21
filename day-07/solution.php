@@ -158,8 +158,8 @@ assert(supports_ssl(parse_ip("zazbz[bzb]cdb")));
 
 ###
 
-$file = fopen("day-7/input.txt", "r") or die("Could not open file.");
-$lines = explode("\n", fread($file, filesize("day-7/input.txt")));
+$file = fopen("day-07/input.txt", "r") or die("Could not open file.");
+$lines = explode("\n", fread($file, filesize("day-07/input.txt")));
 fclose($file);
 
 $input = array_map(fn ($line) => parse_ip($line), $lines);

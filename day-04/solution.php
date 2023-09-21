@@ -97,7 +97,7 @@ function part_2($input)
         }
     }
 
-    $file = fopen("day-4/output.txt", "w") or die("Could not open file.");
+    $file = fopen("day-04/output.txt", "w") or die("Could not open file.");
     fwrite($file, join("\n", $rooms_deciphered));
     fclose($file);
 
@@ -115,8 +115,8 @@ assert(decipher_room_name(["qzmt", "zixmtkozy", "ivhz"], 343) === "very encrypte
 
 ###
 
-$file = fopen("day-4/input.txt", "r") or die("Could not open file.");
-$lines = explode("\n", fread($file, filesize("day-4/input.txt")));
+$file = fopen("day-04/input.txt", "r") or die("Could not open file.");
+$lines = explode("\n", fread($file, filesize("day-04/input.txt")));
 fclose($file);
 
 $input = array_map("parse_room", $lines);

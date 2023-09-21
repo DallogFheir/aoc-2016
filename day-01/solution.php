@@ -143,8 +143,8 @@ assert(part_2(["R8", "R4", "R4", "R8"]) === 4);
 
 ###
 
-$file = fopen("day-1/input.txt", "r") or die("Could not open file.");
-$input = explode(", ", fread($file, filesize("day-1/input.txt")));
+$file = fopen("day-01/input.txt", "r") or die("Could not open file.");
+$input = explode(", ", fread($file, filesize("day-01/input.txt")));
 fclose($file);
 
 ###

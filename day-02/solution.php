@@ -124,8 +124,8 @@ assert(part_2($test_input) === "5DB3");
 
 ###
 
-$file = fopen("day-2/input.txt", "r") or die("Could not open file.");
-$lines = explode("\n", fread($file, filesize("day-2/input.txt")));
+$file = fopen("day-02/input.txt", "r") or die("Could not open file.");
+$lines = explode("\n", fread($file, filesize("day-02/input.txt")));
 fclose($file);
 
 $input = array_map(fn ($line) => str_split($line), $lines);

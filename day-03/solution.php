@@ -42,8 +42,8 @@ assert(!is_valid_triangle([5, 10, 25]));
 
 ###
 
-$file = fopen("day-3/input.txt", "r") or die("Could not open file.");
-$lines = explode("\n", fread($file, filesize("day-3/input.txt")));
+$file = fopen("day-03/input.txt", "r") or die("Could not open file.");
+$lines = explode("\n", fread($file, filesize("day-03/input.txt")));
 fclose($file);
 
 $input = array_map(function ($line) {
